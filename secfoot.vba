@@ -9,7 +9,7 @@ With ActivePresentation
         si_orig = .Slides(2).sectionIndex
         current_count = 1
         
-        For X = 2 To .Slides.Count - 1
+        For X = 2 To .Slides.Count 
             .Slides(X).HeadersFooters.Footer.Visible = True
             
             si = .Slides(X).sectionIndex
